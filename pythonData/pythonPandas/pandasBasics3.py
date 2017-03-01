@@ -2,7 +2,7 @@ import pandas as pd # To start, import necessary libraries.
 import quandl # In order to use quandl how I display below, you will need to pip install the lxml module as well as BeautifulSoup4.
 
 # Here we use the quandl module in order to take dataframes from quandl's vast amounts of data. This one is for the house pricing index of the city of Kokomo.
-df = quandl.get("FMAC/HPI_KOKIN", authtoken="j1EEWenU5vZ21HxjQWAo", start_date="1999-01-31")
+df = quandl.get("FMAC/HPI_KOKIN", authtoken="j1EEWenU5vg21HxjQWAo", start_date="1999-01-31") # Use your own authtoken API KEY, this is a useless one.
 print(df.head())
 # This would be hard to get a dataframe from each state by clicking all of them indivually, so alternatively we can do something else.
 
